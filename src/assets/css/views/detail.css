@@ -1,0 +1,30 @@
+.contac{
+    
+    -webkit-transition:all .3s;
+    -o-transition:all .3s;
+    transition:all .3s;
+    text-align: center;
+
+}
+.contac:after{
+    content:"";
+    left:-35%;
+    top:0;
+    -webkit-transform:skew(50deg);
+    -ms-transform:skew(50deg);
+    transform:skew(50deg);
+    -webkit-transition-duration:.6s;
+    -o-transition-duration:.6s;
+    transition-duration:.6s;
+    -webkit-transform-origin:top left;
+    -ms-transform-origin:top left;
+    transform-origin:top left;    
+    -webkit-transition:all .3s;
+    -o-transition:all .3s;
+    transition:all .3s
+}
+.contac:hover:after{
+    height:100%;
+    width:135%;
+    cursor:pointer;
+}

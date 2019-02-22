@@ -1,0 +1,112 @@
+.slideleft,.slideright{
+    position:fixed;
+    top:45vh;
+    z-index:999;
+}
+.slideleft{
+    left:0
+}
+
+.slideright{
+    right:0
+}
+
+.centerconleft{
+    -webkit-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg)
+}
+
+.centerconright{
+    -webkit-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    transform:rotate(-90deg)
+}
+
+.centerconleft,.centerconright{
+    display:-ms-flexbox;
+    display:flex;
+    height:100%;
+    -ms-flex-align:center;
+    align-items:center;
+    -ms-flex-pack:center;
+    justify-content:center
+}
+
+.round{
+    position:relative;
+    border:2px solid #000;
+    width:60px;
+    height:60px;
+    border-radius:100%
+}
+.sp1{
+    -webkit-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    transform:rotate(45deg);
+    left:25%
+}
+.sp1,.sp2{
+    z-index:999;
+    height:2px;
+    margin:1px;
+    width:20px;
+    background:#000;
+    -webkit-transition:.4s ease;
+    -o-transition:.4s ease;
+    transition:.4s ease;
+    display:block;
+    position:absolute;
+    bottom:35%
+}
+.sp2{
+    -webkit-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+    left:45%
+}
+.sp3{
+    -webkit-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    transform:rotate(45deg);
+    left:25%
+}
+.sp3,.sp4{
+    z-index:999;
+    height:2px;
+    margin:1px;
+    width:20px;
+    background:#000;
+    -webkit-transition:.4s ease;
+    -o-transition:.4s ease;
+    transition:.4s ease;
+    display:block;
+    position:absolute;
+    bottom:54%
+}
+.sp4{
+    -webkit-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+    left:45%
+}
+.round:hover .sp1{
+    -webkit-transform:rotate(-135deg);
+    -ms-transform:rotate(-135deg);
+    transform:rotate(-135deg)
+}
+.round:hover .sp2{
+    -webkit-transform:rotate(135deg);
+    -ms-transform:rotate(135deg);
+    transform:rotate(135deg)
+}
+.round:hover .sp3{
+    -webkit-transform:rotate(225deg);
+    -ms-transform:rotate(225deg);
+    transform:rotate(225deg)
+}
+.round:hover .sp4{
+    -webkit-transform:rotate(-225deg);
+    -ms-transform:rotate(-225deg);
+    transform:rotate(-225deg)
+}
