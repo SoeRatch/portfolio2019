@@ -1,7 +1,7 @@
 {
-  "name": "Jobaaks",
+  "name": "Portfolio",
   "version": "1.0.0",
-  "description": "A product for the job seekers",
+  "description": "Portfolio-Suraj Sharma",
   "scripts": {
     "start": "webpack-dev-server --hot",
     "build": "webpack --mode=development"
